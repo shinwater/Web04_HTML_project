@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>데카르트 홈페이지</title>
+<link rel ="stylesheet" href ="../css/style.css">
+<script type="text/javascript">
+		function login_window() {/*자바스크립트 사용자 정의함수  */
+			window.open("./login/login.html", "로그인", "width=380px, height=250px");
+		/* window  생략가능 */
+		/* window.open("파일경로명", "창 이름", "가로폭,높이") */
+			
+		}
+</script>
+</head>
+<body>
+
+			<div class="container" >
+				<header><!-- 웹 문서의 상단 영역 -->
+					<div id ="Login">
+						<a href="../index.html">홈</a>
+						<a href="#" onclick="login_window()">로그인</a>
+						<!-- onclick: 클릭하면~~login_window(): 자바스크립트 함수 호출 
+									-스크립트태그로 불러와야함 -->
+						<a href="#">회원가입</a>
+					
+					</div> <!-- id ="Login" end -->
+				
+					<hgroup><!-- 제목과 부제목을 그룹으로 묶어주는 역할 -->
+						<h1>데카르트, 서양 근대철학의 창시자</h1>
+						<h2>Rene Decartes, 1596~1650</h2>
+					
+					</hgroup>
+				</header>
+			
+				<nav class="navi"> <!-- 네비게이션 영역  -->
+					<ul>
+						<li><a href="../birth/birth.html">탄생</a></li>
+						<li><a href="../writing/writing.html">저서</a></li>
+						<li><a href="../philosophy/philosophy.html">철학</a></li>
+						<li><a href="../saying/saying.html">명언</a></li>
+					</ul>
+				</nav>
+			
+			<section class="content"><!--문서의 구역(절) : 여러개 사용 가능-->
+				<h2>데카르트 저서</h2>
+				<article><!-- 문서의 본문 -->
+						데카르트 전집: Oeuvres de Descartes, 편집 Ch. Adam et P. Tannery, 11판, 1982-1991 Paris.<br/>
+《음악개론》: Compendium Musicae, 1618년<br/>
+《정신지도규칙》: Regulae ad directionem ingenii(Rules for the Direction of the Mind), 1626-1628년<br/>
+《인간, 태아발생론》: L'Homme(Man), 1630-1633년, 1662년 출판<br/>
+《세계론》: Le Monde(The World), 1630-1633년, 1664년 출판<br/>
+《방법서설》: Discours de la méthode(Discourse on the Method), 1637년 문예출판사 1997, ISBN 89-310-0327-7<br/>
+《기하학》: La Géométrie(Geometry), 1637년<br/>
+《성찰》: Meditationes de prima philosophia, 1641년 양진호, 옮김, 책세상출판사 2011, ISBN 89-7013-790-4<br/>
+《성찰》: Meditationes de prima philosophia, 1641년 이현복 옮김, 문예출판사 1997, ISBN 89-310-0326-9<br/>
+《철학의 원리》: Principia philosophiae, 1644년 원석영 옮김, 아카넷 2002, ISBN 89-89103-83-5<br/>
+《어떤 비방문에 대한 주석》: Notae in programma(Comments on a Certain Broadsheet), 1647년<br/>
+《인체의 구조에 관하여》: The Description of the Human Body, 1647년<br/>
+《뷔르만과의 대화》: Responsiones Renati Des Cartes(Conversation with Burman), 1648년<br/>
+《정념론》: Les passions de l'âme(Passions of the Soul), 1649년 김선영 옮김, 문예출판사, 2013 ISBN 978-89-310-0739-8<br/>
+《음악에 관한 소고》: Musicae Compendium(Instruction in Music), 1656년, 사후 출판<br/>
+《서한집》: Correspondance, 1657년, 클라우데 클레르슬리에(Claude Clerselier)에 의해 출판<br/>
+				</article>
+			</section>
+			<aside class="sidebar"><!--문서의 보조 내용(알림,광고) -->
+				<h3 align="center">◐저서 구입◑</h3>
+				<p> 저서 구입을 원하시는 분은 전화 000-1111-1234로 연락주시기 바랍니다.</p>
+				<img src="../images/book1.png" width="130" height="160">
+				<img src="../images/book2.png" width="130" height="160">
+			</aside>
+			
+			<footer class="foot"><!-- 문서의 하단 내용 -->
+				<p>글 : 임 정 훈 / 저술가, 번역가</p>
+				<address>E-Mail : jhehun@empas.com </address>
+				<p>Copyright &copy All right reserved</p>
+			</footer>
+			
+			</div> <!-- class="container" end -->
+
+</body>
+</html>

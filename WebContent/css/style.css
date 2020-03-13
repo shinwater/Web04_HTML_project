@@ -1,0 +1,157 @@
+ @charset "UTF-8";
+
+body {/* 문서 전체에 대한 디자인 적용 */
+	font-size: 14px;
+	font-family: 맑은 고딕;
+	
+}
+/* 아이디 먼저 클래스 나중에 나오는게 좋음 */
+/* 문서 중에서 로그인 영역에 대한 디자인 적용 */
+ #Login {
+ 
+	float: right; /* 문서의 오른쪽에 배치 설정 */
+	margin: -20px 20px 0 0 ;
+	font-family: 맑은고딕, Arial;
+	font-size: 12px;
+	word-spacing: 5px; /* 글자와 글자 사이 간격(자간) */
+	font-style: bole;
+	text-shadow: 1px 2px 2px #666;
+}
+
+/* 로그인 영역의 a태그 디자인 적용 */
+#Login a {
+	text-decoration: none; /* a태그 밑줄 제거 설정*/
+	color: #333;
+	
+}
+
+/* 로그인 영역의 a태그 마우스 오버시 디자인 적용 */
+#Login a:hover {
+	
+	color: #F90;
+}
+
+
+
+/*  전체 div 태그에 대한 디자인 적용*/
+
+ .container {
+	
+	width:950px; /*문서 전체의 폭설정  */
+	margin: 0 auto;/* 문서의 바깥쪽 여백 설정 */
+	background-color: #fff; /* 문서의 배경색 설정 */
+	border: 1px solid #e8e2ae;
+}
+
+/* header 영역 디자인 적용 */
+header { /* 머릿말 디자인 */
+	height: 208px;
+	margin-top: 0px;
+	background-image: url("../images/bg.jpg");
+	background-repeat: no-repeat; /* 이미지 반복없음 */
+	background-position: Left top; /* 이미지위치 */
+}
+
+header hgroup { /* header영역의 hgroup 태그 디자인 적용 */
+	position: relative;
+	top: 60px;
+	left: 180px;
+}
+
+header h1 { /* header 영역의 주 제목 디자인 적용 */
+	font-size: 2.5em; 
+	color: #F2CB78;
+	text-shadow: 1px 2px 2px #000; /* 그림자~~~주~~기~~ */
+	
+}
+
+header h2 { /* header 영역의 부 제목 디자인 적용 */
+	 font-size: 2.5em; 
+	color: #e18048;
+	text-shadow: 0px 1px 1px #000; /* 그림자~~~주~~기~~ */
+	
+}
+
+/* 네비게이션 영역 디자인 적용 */
+.navi {
+	background-color:  #C07F5A;
+	margin-top: -15px; /* 음수값을 주면 위로 올라감 */
+	width: 950px;
+	height: 50px;
+	
+}
+
+.navi ul { /* 네비게이션 영역의 ul태그 디자인 적용 */
+	list-style: none;
+	height: 40px;
+	padding-top: 10px;
+}
+
+.navi ul li { /* 네비게이션 영역의 ul li 태그 디자인 적용 */
+	/* list-style: none; */
+	float: left; /* 수직 메뉴를 수평 메뉴로 변경 */
+	font-size: 17px;
+	
+}
+
+.navi a { /* 네비게이션의 a태그 디자인 적용 */
+	padding: 10px 120px 5px 60px; /* 상단 오른쪽 하단 왼쪽 여백 */
+	color: #fff;
+	text-decoration: none;
+}
+
+.navi a:visited { /* 네비게이션의 a태그 방문 시 적용 */
+	color: #fff;
+	
+}
+
+/* a태그에 마우스 오버 시, 클릭시, 포커스가 올라갔을 때 디자인 적용 */
+.navi a:hover, .navi a:active, .navi a:focus {
+	text-shadow: 0px 2px 2px #000; /* 그림자 지정 */
+	color: #FC0;
+}
+/* section 영역 디자인 적용*/
+.content {
+	background-color: #fff;
+	padding-top: 5px; /* 상단 안쪽 여백 */
+	padding-left: 10px; /* 왼쪽 안쪽 여백 */
+	width: 720px;
+	float: left;
+}
+
+.content article p {
+	text-align: justify;/* 글자를 양쪽 균등  정렬 */
+}
+
+/* aside 보조내용 디자인 적용 */
+.sidebar {
+	float: right;
+	background-color: #E4DA7E;
+	width: 200px;
+	height: 476px;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+
+.sidebar img {/* 보조 내용의 이미지 디자인 적용 */
+	margin-left: 30px;
+	border: 1px solid #ccc;
+	opacity: 0.7; /* 투명한 상태 1:불투명 */
+	text-align: center;
+}
+
+.sidebar img:hover { /* 이미지에 마우스오버시 디자인 적용 */
+	border: 1px solid #000;
+	opacity: 1;
+}
+
+/* footer영역 디자인 적용 */
+.foot {
+	padding: 5px 0;
+	background-color:#997000;
+	color: #fff;
+	text-align: center;
+	clear: both; /* float:right; 기능 제거 */
+}

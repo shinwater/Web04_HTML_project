@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>데카르트 홈페이지</title>
+<link rel ="stylesheet" href ="../css/style.css">
+<script type="text/javascript">
+		function login_window() {/*자바스크립트 사용자 정의함수  */
+			window.open("./login/login.html", "로그인", "width=380px, height=250px");
+		/* window  생략가능 */
+		/* window.open("파일경로명", "창 이름", "가로폭,높이") */
+			
+		}
+</script>
+</head>
+<body>
+
+			<div class="container" >
+				<header><!-- 웹 문서의 상단 영역 -->
+					<div id ="Login">
+						<a href="../index.html">홈</a>
+						<a href="#" onclick="login_window()">로그인</a>
+						<!-- onclick: 클릭하면~~login_window(): 자바스크립트 함수 호출 
+									-스크립트태그로 불러와야함 -->
+						<a href="#">회원가입</a>
+					
+					</div> <!-- id ="Login" end -->
+				
+					<hgroup><!-- 제목과 부제목을 그룹으로 묶어주는 역할 -->
+						<h1>데카르트, 서양 근대철학의 창시자</h1>
+						<h2>Rene Decartes, 1596~1650</h2>
+					
+					</hgroup>
+				</header>
+			
+				<nav class="navi"> <!-- 네비게이션 영역  -->
+					<ul>
+						<li><a href="../birth/birth.html">탄생</a></li>
+						<li><a href="../writing/writing.html">저서</a></li>
+						<li><a href="../philosophy/philosophy.html">철학</a></li>
+						<li><a href="../saying/saying.html">명언</a></li>
+					</ul>
+				</nav>
+			
+			<section class="content"><!--문서의 구역(절) : 여러개 사용 가능-->
+				<h2>데카르트 철학</h2>
+				<article><!-- 문서의 본문 -->
+						
+						<h3>데카르트의 방법적 회의<h3>
+<p>데카르트적 회의는 르네 데카르트의 글과 방법론이 곁들여진 방법론적 회의이다. 
+데카르트적 회의는 자신이 믿는 바의 진실성 여부에 대해서 의심하는 체계적인 방법으로 철학의 특징적인 방법이 되었다. 
+이 의심의 방법은 절대적인 진실로서 받아들일 수 있는 것을 찾기 위해 
+자신의 모든 믿음을 의심한 르네 데카르트에 의해 서양 철학에 대중화 되었다.</p>
+
+<p>데카르트적 회의는(4개의 과학적인 단계로 나눌 수 있다.
+첫째, 사실이라고 아는 정보를 받아들이는 것. 둘째, 이 사실들을 더 작은 단위로 나누는 것. 
+셋째, 간단한 문제들을 먼저 해결하는 것. 넷째, 더 확장된 문제들의 완전한 목록을 만드는 것. 
+의심을 과대하게 하는 것이므로 의심의 경향성을 가진다고 한다. 
+(데카르트의 기준으로의 지식은 단순히 합리적인 것 아닌 가능한 모든 의심을 넘어선 것을 말한다. )
+ 그의 성찰(1641)에서 데카르트는 의심할 수 없는 절대적인 진리로만 이루어진 믿음체계를 
+ 처음부터 끝까지 철저하게 만들기 위하여 자신의 모든 믿음의 진실 여부를 의심하기에 이르렀다.</p>
+
+				</article>
+			</section>
+			<aside class="sidebar"><!--문서의 보조 내용(알림,광고) -->
+				<h3 align="center">◐저서 구입◑</h3>
+				<p> 저서 구입을 원하시는 분은 전화 000-1111-1234로 연락주시기 바랍니다.</p>
+				<img src="../images/book1.png" width="130" height="160">
+				<img src="../images/book2.png" width="130" height="160">
+			</aside>
+			
+			<footer class="foot"><!-- 문서의 하단 내용 -->
+				<p>글 : 임 정 훈 / 저술가, 번역가</p>
+				<address>E-Mail : jhehun@empas.com </address>
+				<p>Copyright &copy All right reserved</p>
+			</footer>
+			
+			</div> <!-- class="container" end -->
+
+</body>
+</html>
